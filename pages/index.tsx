@@ -6,7 +6,7 @@ import Nav from "../components/Nav"
 const Home: NextPage = () => {
   return (
     <div>
-      <div className="bg-[#F4F6FF] h-[700px]">
+      <div className="bg-[#F4F6FF] h-[600px]">
         <Nav></Nav>
         <MainContent></MainContent>
       </div>
