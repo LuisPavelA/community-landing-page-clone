@@ -17,9 +17,9 @@ const Stats: NextPage<Props> = ({ members, sessions, sideprojects }) => {
 }
 
 export async function getServerSideProps() {
-    const members = await fetch("localhost:3000/api/members")
-    const sessions = await fetch("https://.../sessions")
-    const sideprojects = await fetch("https://.../sideprojects")
+    const members = await fetch("https://community-landing-page-clone.vercel.app/api/members")
+    const sessions = await fetch("https://community-landing-page-clone.vercel.app/sessions")
+    const sideprojects = await fetch("https://community-landing-page-clone.vercel.app/sideprojects")
 
     return {
         props: {
