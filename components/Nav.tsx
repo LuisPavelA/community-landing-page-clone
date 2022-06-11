@@ -23,7 +23,9 @@ const Nav: NextPage = () => {
       </div>
       <div>
         <button className="flex justify-between mx-4 font-bold rounded-md bg-[#5271FF] text-white p-2 hover:-translate-y-1 transition-transform drop-shadow-2xl shadow-[#5271FF]">
-          Join us on <img src="/discord.png" alt="Discord Logo" className="mx-2 h-6" /> Discord
+          Join us on{" "}
+          <img src="/discord.png" alt="Discord Logo" className="mx-2 h-6" />{" "}
+          Discord
         </button>
       </div>
     </div>
